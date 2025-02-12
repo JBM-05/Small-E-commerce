@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 const Card = ({ img, title, star, reviews, prevPrice, newPrice, company, color, category }) => {
     return (
-      <div className="max-w-xs bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
+      <div className="max-w-xs bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg border-rounded  transition-shadow duration-300 transition-transform duration-500 ease-in-out transform hover:scale-105 ">
       <img src={img} alt={title} className="w-full h-48 object-contain" />
         <div className="p-4">
           <h2 className="text-lg font-semibold text-gray-800 mb-1">{title}</h2>
