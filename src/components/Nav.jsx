@@ -6,7 +6,7 @@ import { useContext } from "react";
 const Nav = () => {
  const {setSearch} = useContext(data1);
   return (
-    <div className="flex items-center justify-around py-4 px-8 bg-white shadow-md">
+    <div className="flex items-center  justify-around py-4 px-8 bg-white shadow-md">
       <div className="relative w-80 ml-20"> 
         <input
           className="w-full border border-gray-300 rounded-full py-2 pl-4 pr-12 focus:outline-none focus:ring-2 focus:ring-blue-500"

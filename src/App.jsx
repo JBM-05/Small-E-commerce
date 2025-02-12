@@ -24,7 +24,7 @@ function App() {
         }}
       >
         <Nav />
-        <div className="flex">
+        <div className="flex ">
           <Sidebar />
           <Products />
         </div>
